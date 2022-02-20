@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Red Green
+        </title>
+        <style>
+            #header{
+                background-image: url("img/eyeicon.png");
+			    background-size:contain;
+                background-repeat: no-repeat;
+			    background-position: top;
+            }
+            h1{
+                text-align: center;
+                line-height: 300px;
+                font-size: 36pt;
+                color:peru;
+            }
+            #main{
+                width: 1000px;
+                background-position: center;
+                margin: auto;
+                background-color: rgb(196, 226, 217);
+                text-align: justify;
+                padding: 20px;
+            }
+            body{
+                background-color: #c2edea;
+            }
+            #container{
+                display:flex;
+                flex-direction: row;
+                padding: 20px;
+                width: 1100px;
+                align-self: center;
+                align-items: stretch;
+            }
+            #main_column{
+                background-color: rgb(204, 134, 63);
+            }
+            #navbar {
+	        box-shadow: 0px 2px 5px #CCC;
+            }
+            #nav {
+	        width: 600px; /* same as width of #main */
+	        margin-left: 450px;
+	        margin-right: auto;
+	        display: flex;
+            }
+            #nav a {
+	        text-decoration: none;
+	        width: 150px;
+	        height: 50px;
+	        line-height: 50px;
+	        display: block;
+	        text-align: center;
+	        color: #333;
+	        border-bottom: 2px solid #FFF;
+            }  
+            #nav a:hover, #nav #active-nav {
+	        color: rgb(255, 187, 0);
+            font-weight: bolder;
+	        border-bottom: 2px solid rgb(255, 0, 242);
+            }
+            p{
+                color:#333
+            }
+            #about{
+                display: flex;
+                align-items: top;
+                background-color:beige;
+                border: #333;
+                border-radius: 15%;
+                border-color: #333;
+                border-style: dotted;
+            }
+            h2{
+                color:#333;
+                text-align: center;
+            }
+            #gallery {
+            display: flex;
+            align-items: top;
+			margin: 10px; 
+			padding: 10px;
+            flex-wrap: wrap;
+            margin-left: 20px;
+            }
+            img{
+                width: 500px;
+                padding: 10px;
+                background-color: #333;
+                margin-left: 50px;
+            }
+            p{
+                padding: 10px;
+            }
+            .other{
+                margin-left: 50px;
+            }
+        
+            
+    
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+		<div id="nav">
+			<a href="RG.html" id="active-nav">About</a>
+			<a href="extension.html">Get Extension</a>
+            <a href="whoweare.html">Who We Are</a>
+            <!-- #navbar -->
+		</div> <!-- #nav -->
+	</div> <!-- #navbar -->
+
+        <div id="header">
+            <h1>ChromaCorrect</h1>
+        </div> <!-- closing #header-->
+        <div id="container">
+        </div>
+
+        <h2>About ChromaCorrect</h2>
+        <div id="about">
+        <p>ChromaCorrect is a Google Chrome extension which changes the colors of the text, text background, and hyperlinks. This extension can be enabled on any webpage and will change the colors of it to have more contrast and be able to see. All colors have been carefully chosen to provide strong contrast between text, background and hyperlinks. Additionally, all of the colors have been chosen from a colorblind-friendly color palette. This will allow colorblind users to easily see what has and has not been viewed, which was a big complaint from colorblind users. The usability is very simple too! All you have to do is download the extension and enable it in the toolbar. It should immediately change the colors of the page.</p>
+        </div>
+
+
+        <h2>ChromaCorrect In Use</h2>
+        <div id="gallery">
+
+			<div class="img">
+                <p class="other">Wikipedia Website</p>
+				<img class="thumbnail" src="img/Screen Shot 2022-02-20 at 9.42.19 AM.png" alt="Lilit Yengoian">
+			</div> 
+
+			<div class="img">
+                <p class="other">Adobe Website</p>
+				<img class="thumbnail" src="img/Screen Shot 2022-02-20 at 9.43.11 AM.png" alt="Joelle Rudolph">
+			</div>
+
+			<div class="img">
+                <p class="other">USC Website</p>
+				<img class="thumbnail" src="img/Screen Shot 2022-02-20 at 9.43.53 AM.png" alt="Melissa Romero">
+			</div> 
+
+            <div class="img">
+                <p class="other">Panic Studio Website</p>
+				<img class="thumbnail" src="img/Screen Shot 2022-02-20 at 9.48.02 AM.png" alt="Melissa Romero">
+			</div> 
+
+            <div class="img">
+                <p class="other">Taylor Swift's Website</p>
+				<img class="thumbnail" src="img/Screen Shot 2022-02-20 at 9.53.41 AM.png" alt="Melissa Romero">
+			</div> 
+		</div> 
+
+
+    </body>
+</html>
